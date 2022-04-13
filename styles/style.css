@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 1200px;
+    width: 100vw;
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: #333;
+    height: 6%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contentOptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 5%;
+    margin-left: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contentOptions:hover{
+    background-color: #fff;
+    color: #333;
+    transition: 0.4s ease;
+    font-weight: bold;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/src/fondo.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    background-color: rebeccapurple;
+    height: 90%;
+}
+
+.contentInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+
+.title{
+    margin-top: 50px;
+    font-size: 80px;
+    color: #fff;
+}
+
+.conttentTitle{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    cursor: default;
+}
+
+.contentButton{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50%;
+    width: 100%;
+}
+
+.button{
+    height: 30%;
+    width: 20%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    transition: 0.4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    height: 40%;
+}
+
+.contentCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+}
+
+.infoCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 25%;
+    color: #333;
+    font-weight: bolder;
+    font-size: large;
+    cursor: default;
+}
+
+.expecification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 25%;
+    text-align: center;
+    font-size: medium;
+    font-weight: lighter;
+    cursor: default;
+    color: #333;
+}
+
+.buttonLearnMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 25%;
+}
+
+.learnMore{
+    width: 70%;
+    height: 60%;
+    background: none;
+    margin: 1px solid #333;
+    color: #333;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.learnMore:hover{
+    color: #fff;
+    background: #333;
+    border: none;
+    transition: 0.4s ease;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+    height: 5%;
+}
+
+.footer{
+    color: #fff;
+    font-size: small;
+}
